@@ -1,0 +1,367 @@
+/* Reset default margin and padding for the body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for rows in the layout */
+.row {
+    margin: 2%;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    background-color: white;
+}
+
+/* Styling for sticky elements */
+.sticky{
+    position: sticky;
+    top: 0;
+}
+
+/* Styling for images within first and second column */
+.col-4 img,
+.col-1 img {
+    border: 0.3px solid #ccc;
+    padding: 1%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.01);
+    height: 5vw;
+    width: 5vw;
+}
+
+/* Styling for a large image with specified dimensions */
+#largeImage{
+    height: 30vw;
+    width: 22.5vw;
+}
+
+/* Styling for options with margin */
+.option{ 
+    margin-bottom: 2vw; 
+}
+
+/* Styling for the navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #126ba7;
+    color: white;
+    padding: 3vw;
+    width: 100%;
+}
+
+/* Styling for heading within the navigation bar */
+.navbar h4 {
+    margin: 0;
+    padding: 0;
+    margin-right: 2vw;
+    font-size: 2.5vw; 
+    display: inline-block;
+}
+
+/* Hover effect for the heading in the navigation bar */
+.navbar h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Styling for buttons within the right section of the navigation bar */
+.navbar .nav-right button {
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 2vw;
+}
+
+/* Styling for rating elements (clickable) with reduced font weight */
+.ratingInfo{
+    cursor: pointer;
+    font-weight: 300;
+    padding: 1vw 0 0 0;
+}
+
+/* Styling for a box displaying rating information */
+.ratingBox{
+    display: inline-block;
+    background-color: green;
+    color: white;
+    border-radius: 0.5vw;
+    font-size: 1vw;
+    padding: 0.5vw;
+}
+
+/* Styling for the price section */
+.price {
+    padding-top: 2vw;
+}
+
+/* Styling for the title of the price section */
+.priceTitle {
+    color: green;
+    margin-bottom: 1vw;
+}
+
+/* Styling for the amount display section */
+.Amount {
+    display: flex;
+    align-items: center;
+}
+
+/* Styling for the main price amount */
+.priceAmount {
+    font-size: 1.5em;
+    color: #333;
+}
+
+/* Styling for the previous amount */
+.prevAmount {
+    font-size: 1em;
+    color: #999;
+    margin-left: 1vw;
+    text-decoration: line-through;
+}
+
+/* Styling for discount information */
+.discount {
+    font-size: 0.8em;
+    color: red;
+    margin-left: 1vw;
+}
+
+/* Styling for the component information section */
+.componentInfo {
+    margin-top: 2vw;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+/* Styling for individual elements within the component information section */
+.element {
+    display: flex;
+    margin-bottom: 1.5vw;
+}
+
+/* Styling for title and content within an element */
+.title,
+.content {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling for the title heading within an element */
+.title h6 {
+    margin: 0;
+}
+
+/* Styling for the delivery information section */
+.delivery{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1.5vw;
+}
+
+/* Styling for the input field within the delivery section */
+input {
+    padding: 1vw;
+    flex: 1;
+    border: 0;
+    background: none;
+    color: #126ba7;
+}
+
+/* Styling for the button within the delivery section */
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 1vw;
+    padding: 1vw;
+    color: #126ba7;
+}
+
+/* Styling for the specification section */
+.specification{
+    padding: 1vw;
+    margin-bottom: 2vw;
+    max-width: 100%;
+    height: auto;
+    border: 0.03vw solid #ccc;
+    box-shadow: 0 0 0.5vw rgba(0, 0, 0, 0.01);
+}
+
+/* Styling for specific information within the specification section */
+.specific-info {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling for rows of information within the specification section */
+.info-row {
+    display: flex;
+}
+
+/* Styling for the first column of information within a row */
+.info-column-1{
+    width: 20vw;
+}
+
+/* Styling for the "Read More" button */
+.readMoreButton{
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the assessment section */
+.assessment{
+    max-width: 100%;
+    height: auto;
+    border: 0.03vw solid #ccc;
+    box-shadow: 0 0 0.5vw rgba(0, 0, 0, 0.01);
+    padding: 1.5vw;
+}
+
+.progress{
+    height: 2vw; 
+    margin-left: 5px; 
+    width: 75%;
+}
+
+.assessment .col-md-6 span{
+    font-size: 1vw;
+}
+
+/* Styling for comments section */
+.comments{
+    width: 90%;
+    height: 90%;
+    margin-top: 3vw;
+}
+
+/* Styling for the title of comments */
+.commentTitle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1vw;
+}
+
+/* Styling for elements within the comment title */
+.commentTitle div {
+    display: flex;
+    align-items: center;
+}
+
+/* Styling for the rating display in comments */
+.commentRating{
+    display: inline-block;
+    background-color: green;
+    color: white;
+    border-radius: 0.5vw;
+    margin-right: 1vw;
+    padding: 0.2vw;
+}
+
+/* Styling for the footer section of comments */
+.commentFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw; 
+}
+
+/* Styling for the container holding user information */
+.userInfoContainer {
+    flex: 1;
+}
+
+/* Styling for the container holding thumbs-up and thumbs-down icons */
+.thumbsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for individual containers for thumbs-up and thumbs-down icons */
+.thumbsUpContainer,
+.thumbsDownContainer {
+    display: flex;
+    align-items: center;
+    margin-right: 1vw;
+}
+
+/* Styling for the text link to view all reviews */
+.all_reviews{
+    color: blue;
+    cursor: pointer;
+}
+
+/* Additional styling for small screens (below md) */
+@media (max-width: 768px) {
+
+    /* Styling for images within the first column */
+    .option img {
+        height: 10vw;
+        width: 10vw;
+        margin-right: 10px;
+    }
+
+    /* Styling for the first column (option) */
+    .option {
+        flex-direction: row;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    /* Styling for the large image */
+    #largeImage{
+        height: 60vw;
+        width: 60vw;
+        margin-left: 13vw;
+    }
+
+    /* Margin adjustments for specifications section */
+    .specification h4,
+    .specification h5,
+    .specific-info{
+        margin-left: 3vw;
+    }
+
+    /* Padding adjustments for the assessment section */
+    .assessment {
+        padding: 5vw;
+    }
+
+    /* Font size adjustments for spans within assessment section */
+    .assessment .col-md-6 span{
+        font-size: 3vw;
+    }
+
+    /* Padding adjustments for content section */
+    .content{
+        padding-top: 4vw;
+    }
+
+    /* Font size adjustment for rating box */
+    .ratingBox{
+        font-size: 3vw;
+    }
+
+    /* Margin adjustment for the read more button */
+    .readMoreButton{
+        margin-left: 3vw;
+    }
+
+    /* Padding adjustment for title */
+    .title{
+        padding-top: 5vw;
+    }
+    
+    /* Margin adjustment for comments section */
+    .comments{
+        margin-top: 7vw;
+    }
+
+}
